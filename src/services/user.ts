@@ -1,6 +1,6 @@
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
 import { db } from './firebase';
-import { UserPreferences, UserProfile } from '@types/user';
+import { UserPreferences, UserProfile } from '../types/user';
 
 // Get user profile by ID
 export const getUserProfile = async (userId: string): Promise<UserProfile | null> => {

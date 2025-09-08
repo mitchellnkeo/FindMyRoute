@@ -1,4 +1,4 @@
-import { GeoPoint, Route } from '@types/route';
+import { GeoPoint, Route } from '../types/route';
 
 // Base URL for OSRM API
 // Note: In production, you'd want to self-host this service

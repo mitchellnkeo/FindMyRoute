@@ -1,0 +1,40 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": false
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true
+  },
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.tsserver.watchOptions": {
+    "watchDirectory": "useFsEvents",
+    "watchFile": "useFsEvents",
+    "excludeDirectories": ["**/node_modules"]
+  },
+  "typescript.tsserver.maxTsServerMemory": 4096,
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "eslint.options": {
+    "ignorePath": ".eslintignore"
+  },
+  "eslint.ignoreUntitled": true,
+  "typescript.disableAutomaticTypeAcquisition": true
+}

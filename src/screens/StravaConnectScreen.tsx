@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, ActivityIndicator, ScrollView, Alert, Lin
 import { auth } from '@services/firebase';
 import { getStravaAuthUrl, connectStravaAccount, disconnectStravaAccount, getStravaActivities } from '@services/strava';
 import { getCurrentUserProfile } from '@services/auth';
-import { UserProfile } from '@types/user';
+import { UserProfile } from '../types/user';
 
 const StravaConnectScreen: React.FC = () => {
   const [loading, setLoading] = useState(true);
