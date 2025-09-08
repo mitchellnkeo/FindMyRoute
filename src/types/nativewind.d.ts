@@ -25,10 +25,10 @@ declare module 'react-native' {
   interface TextInputProps {
     className?: string;
   }
-  interface FlatListProps<T> {
+  interface FlatListProps<_ItemT = any> {
     className?: string;
   }
-  interface SectionListProps<T, S> {
+  interface SectionListProps<_ItemT = any, _SectionT = any> {
     className?: string;
   }
 }

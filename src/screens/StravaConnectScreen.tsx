@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, ActivityIndicator, ScrollView, Alert, Linking } from 'react-native';
-import { auth } from '@services/firebase';
-import { getStravaAuthUrl, connectStravaAccount, disconnectStravaAccount, getStravaActivities } from '@services/strava';
-import { getCurrentUserProfile } from '@services/auth';
+// Auth is imported from firebase service when needed
+import { getStravaAuthUrl, connectStravaAccount, disconnectStravaAccount, getStravaActivities } from '../services/strava';
+import { getCurrentUserProfile } from '../services/auth';
 import { UserProfile } from '../types/user';
 
 const StravaConnectScreen: React.FC = () => {
