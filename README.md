@@ -45,6 +45,9 @@ Unlike typical fitness trackers, RunRoute is not meant to log every workout. Ins
    - Safety-aware routes (avoid highways, unsafe areas).
    - Scenic points of interest (parks, waterfronts, city landmarks).
    - Weather-adjusted recommendations (e.g., shaded routes on hot days).
+   - Accessible parking lot/street parking
+   - Bathrooms available on route
+   - Water stations
 
 ---
 
@@ -74,7 +77,7 @@ Unlike typical fitness trackers, RunRoute is not meant to log every workout. Ins
 ---
 
 ## 🧑‍💻 Tech Stack
-- **Frontend**: React Native + TypeScript  
+- **Frontend**: React Native + Expo + TypeScript + NativeWind
 - **Backend**: Firebase (Auth, Firestore, Hosting, Functions)  
 - **Mapping & Routing**: OpenStreetMap + OSRM (or GraphHopper)  
 - **AI/ML**: Python microservice (FastAPI) or Firebase ML (for initial experiments)  
@@ -84,7 +87,7 @@ Unlike typical fitness trackers, RunRoute is not meant to log every workout. Ins
 
 ## ⚙️ Development Flow
 1. Set up Firebase project and link to the app.  
-2. Scaffold React Native project with TypeScript.  
+2. Scaffold React Native + Expo project with TypeScript.  
 3. Implement authentication + profile system.  
 4. Add map integration for route discovery.  
 5. Add route filtering system.  
