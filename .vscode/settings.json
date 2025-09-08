@@ -20,7 +20,7 @@
     "**/*.code-search": true
   },
   "typescript.preferences.importModuleSpecifier": "relative",
-  "typescript.preferences.quoteStyle": "single",es? 
+  "typescript.preferences.quoteStyle": "single",
   "typescript.tsserver.watchOptions": {
     "watchDirectory": "useFsEvents",
     "watchFile": "useFsEvents",
@@ -33,7 +33,7 @@
     }
   ],
   "eslint.options": {
-    "ignorePath": ".eslintignore"
+    "overrideConfigFile": "eslint.config.mjs"
   },
   "eslint.ignoreUntitled": true,
   "typescript.disableAutomaticTypeAcquisition": true
